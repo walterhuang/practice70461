@@ -16,9 +16,11 @@ select 'for xml raw, elements', * from x2 union all
 select 'for xml auto', * from x3 union all
 select 'for xml auto, elements', * from x4 
 
-/*  <results>
-<row c1="1" c2="a"/>
-<row><c1>1</c1><c2>a</c2></row>
-<t c1="1" c2="a"/>
-<t><c1>1</c1><c2>a</c2></t>
+
+-- results
+/*
+for xml raw	            <row c1="1" c2="a"/>
+for xml raw, elements	<row><c1>1</c1><c2>a</c2></row>
+for xml auto	        <t c1="1" c2="a"/>
+for xml auto, elements	<t><c1>1</c1><c2>a</c2></t>
 */
