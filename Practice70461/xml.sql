@@ -19,8 +19,8 @@ select 'for xml auto, elements', * from x4
 
 -- results
 /*
-for xml raw	            <row c1="1" c2="a"/>
-for xml raw, elements	<row><c1>1</c1><c2>a</c2></row>
-for xml auto	        <t c1="1" c2="a"/>
-for xml auto, elements	<t><c1>1</c1><c2>a</c2></t>
+for xml raw            <row c1="1" c2="a"/>
+for xml raw, elements  <row><c1>1</c1><c2>a</c2></row>
+for xml auto           <t c1="1" c2="a"/>
+for xml auto, elements <t><c1>1</c1><c2>a</c2></t>
 */
