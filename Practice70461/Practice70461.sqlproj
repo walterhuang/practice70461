@@ -61,5 +61,6 @@
   <ItemGroup>
     <None Include="xml.sql" />
     <None Include="selectinto.sql" />
+    <None Include="lag.sql" />
   </ItemGroup>
 </Project>
